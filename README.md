@@ -96,7 +96,7 @@ Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
 
 Contact
-If you have any questions, please feel free to reach out to me at [your-mayurmane656@gmail.com].
+If you have any questions, please feel free to reach out to me at [mayurmane656@gmail.com].
 
 Acknowledgments
 Inspiration and guidance from various online resources.
