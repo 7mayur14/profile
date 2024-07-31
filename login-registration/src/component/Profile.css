@@ -1,0 +1,149 @@
+/* Container for the entire profile page */
+.profile-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #e0f0ff; /* Light blue background */
+    color: #003366; /* Dark blue text color */
+    border-radius: 10px;
+    position: relative; /* Set relative positioning to contain the absolute positioned profile-completion */
+  }
+  
+  /* Styling for the profile picture section */
+  .profile-picture-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #003366; /* Dark blue border */
+  }
+  
+  .profile-picture-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #003366; /* Dark blue background */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Options for profile picture actions */
+  .profile-options {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-options button {
+    background-color: #003366; /* Dark blue button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-options button:hover {
+    background-color: #004080; /* Slightly lighter blue on hover */
+  }
+  
+  /* File input styling */
+  .file-input {
+    display: none;
+  }
+  
+  /* Styling for personal information section */
+  .personal-info, .contact-details, .social-media, .education {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Title for each section */
+  .personal-info h3, .contact-details h3, .social-media h3, .education h3 {
+    color: #003366; /* Dark blue color for section titles */
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the contact details and personal info paragraphs */
+  .personal-info p, .contact-details p {
+    margin: 5px 0;
+  }
+  
+  /* Social media section styling */
+  .social-media-view p {
+    margin: 5px 0;
+  }
+  
+  .social-media-edit input {
+    width: calc(100% - 22px); /* Adjusted width to account for padding */
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #003366; /* Dark blue border */
+    border-radius: 5px;
+  }
+  
+  .social-media-edit button {
+    margin: 5px;
+  }
+  
+  /* Education section styling */
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education li {
+    background: #f9f9f9; /* Light grey background for education entries */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light grey border */
+  }
+  
+  .education-edit input {
+    width: calc(100% - 22px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+  }
+  
+  /* Profile completion progress bar */
+  .profile-completion {
+    position: absolute; /* Position absolute to place it in the top right corner */
+    top: 20px; /* Adjust the distance from the top */
+    right: 20px; /* Adjust the distance from the right */
+    background-color: #fff; /* White background for the completion section */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 200px; /* Set a fixed width for the completion section */
+  }
+  
+  .completion-bar {
+    background-color: #d0e0ff; /* Light blue background for progress bar */
+    border-radius: 5px;
+    overflow: hidden;
+    height: 25px;
+    width: 100%;
+  }
+  
+  .completion-progress {
+    background-color: #003366; /* Dark blue for progress */
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+  

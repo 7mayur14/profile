@@ -1,0 +1,21 @@
+[
+  {
+    "firstName": "Mayur",
+    "lastName": "Mane",
+    "email": "mayurmane656@gmail.com",
+    "mobile": "8080695243",
+    "password": "Pass@123",
+    "profilePicture": "/profile-pictures/1722349066577-profile-pic.png",
+    "linkedin": "https://www.linkedin.com/in/mayurbmane",
+    "github": "https://github.com/7mayur14",
+    "personalWebsite": "https://mayurmaneportfolio.netlify.app ",
+    "birthDate": "2001-04-14"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Sharma",
+    "email": "raj11@gmail.com",
+    "mobile": "5846624456",
+    "password": "Pass@123"
+  }
+]
