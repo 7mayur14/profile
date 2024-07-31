@@ -5,7 +5,7 @@
 This project is a User Profile Management System developed using React.js for the frontend and Express.js for the backend. It allows users to manage their profile details, including personal information, profile picture, social media links, and education history. Users can register, log in, update their profile, and view their profile completion percentage.
 
 ### Users currently register for chech profile 
-    bash
+  
     1. Email- mayurmane656@gmail.com
        Password- Pass@123
 
@@ -33,39 +33,39 @@ This project is a User Profile Management System developed using React.js for th
 
 1. Clone the repository:
 
-        bash
+    
        git clone https://github.com/7mayur14/profile.git
        cd profile
 
 ## Navigate to the backend directory:
 
-    bash
+
     cd backend
 
 ## Install the necessary dependencies:
 
-    bash
+ 
     npm install
 
 ## Start the backend server:
 
-    bash
+    
     npm start
 
 ## Frontend
 Navigate to the frontend directory:
 
-    bash
+ 
     cd login-registration
 
 ## Install the necessary dependencies:
 
-    bash
+
     npm install
     
 ## Start the frontend development server:
 
-    bash
+    
     npm start
 
 ### API Endpoints
